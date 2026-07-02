@@ -72,5 +72,4 @@ To share a live link (like `www.my-health-app.com`) with anyone in the world wit
 - **Configuration:** You will need to update the `fetch` URLs in your Next.js code. Change all instances of `http://localhost:8000` to your new live backend URL (e.g., `https://health-backend.onrender.com`).
 - **Result:** Vercel will give you a live shareable link like `https://health-app.vercel.app`.
 
-### 3. Share!
-Once deployed, just send the Vercel URL to your friends, colleagues, or users!
+
