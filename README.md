@@ -14,6 +14,15 @@ An end-to-end, AI-powered health screening web application. This platform provid
   - **LLM Ranking:** The top 3 matches are sent to an LLM which acts as a Triage Coordinator to pick the absolute best doctor and write a personalized medical recommendation.
 - **⚡ Modern Stack:** Built with Next.js (React, Tailwind CSS) for the frontend, and FastAPI (Python, Scikit-learn, Scikit-image, Sentence-Transformers) for the backend.
 
+## Datasets Used
+
+Because raw medical datasets contain gigabytes of images, they are excluded from the repository. The model checkpoints (`.pkl`) are pre-trained and included in the `models/` directory. If you want to retrain the models, you can download the datasets from the following sources:
+
+* **Symptom-Disease Dataset:** [Kaggle - Disease Symptom Description Dataset](https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset) (placed in `extracted_2/`)
+* **Chest X-Ray (Pneumonia):** [Kaggle - Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) (placed in `extracted_3/`)
+* **Brain Tumor Classification (MRI):** [Kaggle - Brain Tumor Classification (MRI)](https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri) (placed in `extracted_7/`)
+* **COVID-19 Radiography Dataset:** [Kaggle - COVID-19 Radiography Database](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database) (placed in `extracted_8/`)
+
 ---
 
 ## How to Run Locally
