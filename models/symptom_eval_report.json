@@ -1,0 +1,13 @@
+{
+  "model": "RandomForest (n_estimators=200)",
+  "task": "Symptom \u2192 Disease classification",
+  "num_classes": 41,
+  "num_features": 131,
+  "train_samples": 3936,
+  "test_samples": 984,
+  "accuracy": 1.0,
+  "precision_weighted": 1.0,
+  "recall_weighted": 1.0,
+  "f1_weighted": 1.0,
+  "roc_auc_ovr_weighted": 1.0
+}

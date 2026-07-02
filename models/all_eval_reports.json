@@ -1,0 +1,64 @@
+{
+  "symptom": {
+    "model": "RandomForest (n_estimators=200)",
+    "task": "Symptom \u2192 Disease classification",
+    "num_classes": 41,
+    "num_features": 131,
+    "train_samples": 3936,
+    "test_samples": 984,
+    "accuracy": 1.0,
+    "precision_weighted": 1.0,
+    "recall_weighted": 1.0,
+    "f1_weighted": 1.0,
+    "roc_auc_ovr_weighted": 1.0
+  },
+  "xray": {
+    "model": "HOG + PCA(120) + RandomForest(250 trees)",
+    "task": "Chest X-Ray: Pneumonia vs Normal",
+    "classes": [
+      "NORMAL",
+      "PNEUMONIA"
+    ],
+    "train_samples": 960,
+    "test_samples": 240,
+    "accuracy": 0.875,
+    "precision_weighted": 0.8776,
+    "recall_weighted": 0.875,
+    "f1_weighted": 0.8748,
+    "roc_auc": 0.9475
+  },
+  "mri": {
+    "model": "HOG + PCA(120) + RandomForest(250 trees)",
+    "task": "Brain MRI: Tumor Type Classification",
+    "classes": [
+      "glioma",
+      "meningioma",
+      "notumor",
+      "pituitary"
+    ],
+    "train_samples": 1280,
+    "test_samples": 320,
+    "accuracy": 0.8,
+    "precision_weighted": 0.7985,
+    "recall_weighted": 0.8,
+    "f1_weighted": 0.7942,
+    "roc_auc": 0.937
+  },
+  "covid": {
+    "model": "HOG + PCA(120) + RandomForest(250 trees)",
+    "task": "COVID-19 Radiography: 4-class Classification",
+    "classes": [
+      "COVID",
+      "Lung_Opacity",
+      "Normal",
+      "Viral Pneumonia"
+    ],
+    "train_samples": 1120,
+    "test_samples": 280,
+    "accuracy": 0.7714,
+    "precision_weighted": 0.7681,
+    "recall_weighted": 0.7714,
+    "f1_weighted": 0.7693,
+    "roc_auc": 0.9236
+  }
+}

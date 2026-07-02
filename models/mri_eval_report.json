@@ -1,0 +1,17 @@
+{
+  "model": "HOG + PCA(120) + RandomForest(250 trees)",
+  "task": "Brain MRI: Tumor Type Classification",
+  "classes": [
+    "glioma",
+    "meningioma",
+    "notumor",
+    "pituitary"
+  ],
+  "train_samples": 1280,
+  "test_samples": 320,
+  "accuracy": 0.8,
+  "precision_weighted": 0.7985,
+  "recall_weighted": 0.8,
+  "f1_weighted": 0.7942,
+  "roc_auc": 0.937
+}
