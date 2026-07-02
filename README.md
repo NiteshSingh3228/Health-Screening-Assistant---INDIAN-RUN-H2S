@@ -73,3 +73,8 @@ To share a live link (like `www.my-health-app.com`) with anyone in the world wit
 - **Result:** Vercel will give you a live shareable link like `https://health-app.vercel.app`.
 
 
+Datasets link :
+https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset
+https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
+https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
